@@ -1,0 +1,13 @@
+# HTML source files - only track the PDFs
+*.html
+
+# CSS files
+*.css
+
+# Python scripts
+*.py
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
