@@ -1,0 +1,60 @@
+# Tribunal Documentation Project Learnings
+
+## Project Context
+This project involves preparing professional legal documents for a tribunal case against Murray & Currie letting agency in Scotland. The case concerns:
+1. An unprotected pet deposit of £200 that was applied to the final rent payment rather than being returned
+2. Multiple breaches of the Letting Agent Code of Practice
+3. GDPR violations (failure to respond to a Subject Access Request within the statutory timeframe and failure to record the request)
+
+## Document Consistency Rules
+- Always ensure consistency across all related legal documents
+- When updating one document, check for related information in other documents
+- Use other documents as reference when making changes rather than assumptions
+- Verify facts (like "pet deposit was applied to final rent" vs "never returned") across multiple documents
+- When correcting a document, prioritize consistency with the main tribunal complaint document
+
+## Factual Accuracy
+- Be precise about how the pet deposit was handled (applied to final rent payment, not refused or withheld)
+- Be specific about GDPR violations (failure to respond to SAR within one-month timeframe and failure to record the request)
+- Distinguish between different types of data protection failures
+- Verify all dates are consistent across documents (tenancy end date, check-out inventory date, etc.)
+
+## Document Workflow
+- HTML files are source files but not tracked in git (in .gitignore)
+- PDF files are generated from HTML and are tracked in git
+- Always run the convert_pdfs.py script after making changes to HTML files
+- Check git repository location before attempting git operations (the git repo is in the professional_legal_documents directory)
+
+## Legal Document Drafting
+- Use precise language that matches legal terminology
+- Maintain formal tone throughout all documents
+- When describing financial transactions, be specific about what happened (e.g., "applied to rent" vs "refused to return")
+- Cite specific articles of legislation being violated (e.g., Article 12(3) of UK GDPR)
+
+## Version Control
+- Commit messages should clearly describe what was changed and why
+- Only commit the generated PDFs, not the HTML source files
+- Check repository structure before attempting git operations
+- Use git status to verify changes before committing
+
+## Error Correction Process
+1. Identify the discrepancy
+2. Check all related documents to determine the correct information
+3. Make minimal necessary changes to align documents
+4. Regenerate PDFs using the conversion script
+5. Commit and push only the necessary files
+
+## Project Structure
+- Main documents are in professional_legal_documents/main_documents/
+- Supporting evidence is in professional_legal_documents/supporting_evidence/
+- Tribunal submission documents are organized separately
+- PDF conversion scripts are in the professional_legal_documents directory
+
+## Lessons Learned
+1. Always verify key facts across multiple documents before making changes
+2. When correcting inconsistencies, look for the most authoritative document as the source of truth
+3. Be careful not to introduce new inconsistencies when fixing existing ones
+4. Use specific search terms to find all instances of a particular fact
+5. When working with legal documents, precision in language is critical
+6. Follow the established workflow for document updates (edit HTML → convert to PDF → commit PDF)
+7. Check the repository structure before attempting git operations 
