@@ -5,7 +5,7 @@ APPLICANT INFORMATION:
 Applicant: Kyle Mallon
 Email: kwm2204@gmail.com
 Address: 6/15 Hesperus Crossway, Edinburgh
-Co-applicant: Sam Watson
+Co-applicant: None (Note: Former flatmate's share of deposit was covered by borrowing from CEO)
 
 PROPERTY DETAILS:
 Address: Constitution Street, Edinburgh
